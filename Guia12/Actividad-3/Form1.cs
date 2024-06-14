@@ -70,6 +70,8 @@ namespace Actividad_3
             }
 
             formver.ShowDialog();
+
+            formver.Dispose();
         }
     }
 }

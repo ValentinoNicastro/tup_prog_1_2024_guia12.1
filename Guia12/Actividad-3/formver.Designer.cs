@@ -70,6 +70,7 @@
             this.ClientSize = new System.Drawing.Size(340, 300);
             this.Controls.Add(this.groupBox1);
             this.Name = "formver";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Ver";
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);

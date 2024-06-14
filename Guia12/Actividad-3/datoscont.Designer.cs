@@ -127,6 +127,7 @@
             this.Controls.Add(this.nmID);
             this.Controls.Add(this.label1);
             this.Name = "datoscont";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Datos del Contenedor";
             ((System.ComponentModel.ISupportInitialize)(this.nmID)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nmPeso)).EndInit();
