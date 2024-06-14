@@ -33,6 +33,7 @@ namespace Actividad
                 code.AgregarComp(comp.tbNombre.Text);
             }
 
+            comp.Dispose();
         }
 
         private void btnTiempos_Click(object sender, EventArgs e)

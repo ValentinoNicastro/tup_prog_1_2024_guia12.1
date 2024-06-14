@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Actividad", "Actividad\Actividad.csproj", "{1719C212-8CDC-40C6-8BE4-83D5462A5BF1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Actividad-1", "Actividad\Actividad-1.csproj", "{1719C212-8CDC-40C6-8BE4-83D5462A5BF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Actividad-3", "Actividad-3\Actividad-3.csproj", "{A7021140-CBFB-4F91-A146-BAFBCC5DAD39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{1719C212-8CDC-40C6-8BE4-83D5462A5BF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1719C212-8CDC-40C6-8BE4-83D5462A5BF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1719C212-8CDC-40C6-8BE4-83D5462A5BF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7021140-CBFB-4F91-A146-BAFBCC5DAD39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7021140-CBFB-4F91-A146-BAFBCC5DAD39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7021140-CBFB-4F91-A146-BAFBCC5DAD39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7021140-CBFB-4F91-A146-BAFBCC5DAD39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
