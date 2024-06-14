@@ -35,11 +35,11 @@ namespace Actividad.Models
                     if (tiempos[i] > tiempos[j])
                     {
                         tiempoGuardar = tiempos[j];
-                        tiempos[i] = tiempos[j];
+                        tiempos[j] = tiempos[i];
                         tiempos[i] = tiempoGuardar;
 
                         compGuardar = competidores[j];
-                        competidores[i] = competidores[j];
+                        competidores[j] = competidores[i];
                         competidores[i] = compGuardar;
                     }
                 }

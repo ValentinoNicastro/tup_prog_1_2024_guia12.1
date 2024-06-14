@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -59,8 +60,11 @@ namespace Actividad
 
             for(int i = 0; i < code.cont;i++)
             {
-                resultados.lbResultados.Items.Add($"{i.ToString() + " - " + Convert.ToString(code.competidores[i]) + " - " + Convert.ToString(code.tiempos[i])}");
+                int hh = code.tiempos[i] / 60;
 
+                int mm = code.tiempos[i] % 60;
+
+                resultados.lbResultados.Items.Add($"{i:00000} - {code.competidores[i]} - {hh}:{mm}");
             }
 
             resultados.ShowDialog();
